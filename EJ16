@@ -1,0 +1,14 @@
+#include<stdio.h>
+int main()
+{
+  int i, n;
+   n = 0;
+  while(i<=100)
+  { 
+    printf("Hello World\n");
+    i++;
+  }
+  printf("Fin del programa");
+  return 0;
+   
+}
