@@ -1,0 +1,29 @@
+#include <math.h>
+#include <stdio.h>
+int main() {
+    double a, b, c, discriminante, raiz1, raiz2, real;
+    printf("Ingresa los coeficientes a, b, c separados por espacio: ");
+    scanf("%lf %lf %lf", &a, &b, &c);
+
+    discriminante = b * b - 4 * a * c;
+
+    // En caso de que sean diferentes
+    if (discriminante > 0) {
+        raiz1 = (-b + sqrt(discriminante)) / (2 * a);
+        raiz2 = (-b - sqrt(discriminante)) / (2 * a);
+        printf("raiz 1 = %.2lf y raiz 2 = %.2lf", raiz1, raiz2);
+    }
+
+    // En caso de tener raices iguales
+    else if (discriminante == 0) {
+        raiz1 = raiz2 = -b / (2 * a);
+        printf("raiz1 = raiz2 = %.2lf;", raiz1);
+    }
+
+    // en caso de ser imaginarias
+    else {
+      printf("Las raices son imaginarias, intenta de nuevo");
+    }
+
+    return 0;
+}
