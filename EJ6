@@ -1,0 +1,19 @@
+
+#include <stdio.h>
+
+int main() {   
+    int number;
+    printf("Escriba un número: ");  
+    
+    // lee y guarda el número
+    scanf("%d", &number);
+    // if statment que se asegura de revisar el signo del número
+    if(number > 0){
+        printf("Tú número es positivo");
+    }
+    else {
+        printf("Escribiste un número negativo o cero, vuelve a correr el programa");
+    }
+
+    return 0;
+}
