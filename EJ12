@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include <math.h>
+int main() {
+	
+	double H,B,A;
+	printf("Ingresa uno de los catetos: ");
+	scanf("%lf", &B);
+	printf("Ingresa el Segundo cateto: ");
+	scanf("%lf", &A);
+	H = sqrt(pow(B,2) + pow(A,2));
+	printf("La hipotenusa del triángulo es: %lf", H);
+	
+}
