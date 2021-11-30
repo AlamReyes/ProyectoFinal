@@ -1,0 +1,14 @@
+#include <stdio.h>
+ 
+int main() {
+   float radio, area_circulo;
+ 
+   // toma el radio como un input 
+   printf("Ingresa el radio del circulo : ");
+   scanf("%f", &radio);
+ 
+   area_circulo = 3.14 * radio * radio;
+   printf("Area del  circulo : %f", area_circulo);
+ 
+   return 0;
+}
