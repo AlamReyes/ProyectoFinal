@@ -1,0 +1,17 @@
+
+#include <stdio.h>
+#include <math.h>
+
+int main() {   
+    int number, cubo;
+    printf("Escriba un número: ");  
+    
+    // lee y guarda el número
+    scanf("%d", &number);
+    cubo = pow(number,3);
+    
+    // sumarle uno y elevarlo al cubo
+    printf("Tú número al cubo es : %d", cubo);
+    
+    return 0;
+}
