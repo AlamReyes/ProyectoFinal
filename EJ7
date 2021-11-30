@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {   
+    int number;
+    printf("Escriba un número: ");  
+    
+    // lee y guarda el número
+    scanf("%d", &number);
+    // if statment que se asegura de revisar si es par o impar
+    if(number % 2 == 0){
+        printf("Tú número es par");
+    }
+    else if(number % 3 == 0){
+        printf("Escribiste un impar");
+    }
+    else {
+        printf("No Escribiste un número, vuelve a correr el programa");
+    }
+
+    return 0;
+}
