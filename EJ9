@@ -1,0 +1,18 @@
+#include<stdio.h>  
+#include<stdlib.h>  
+  
+int main()  
+{  
+    int num;  
+  
+    printf("Ingresa un número positivo o negativo\n");  
+    scanf("%d", &num);  
+  
+    printf("El valor absoluto de tu número  |%d| es %d\n", num, abs(num));  
+    
+    /*Puedes realizar el mismo programa usando if statement siendo el caso de que si fuese negativo sería multiplicado programa
+    -1, luego imprimirlo, y si fuese positivo imprimirlo*/
+    
+    return 0;  
+    
+}  
