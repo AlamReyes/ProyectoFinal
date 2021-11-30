@@ -1,0 +1,15 @@
+
+#include <stdio.h>
+int main() {   
+    int number;
+   
+    printf("Escriba un número: ");  
+    
+    // lee y guarda el número
+    scanf("%d", &number);
+
+    // Imprimir el número
+    printf("Escribiste: %d", number);
+    
+    return 0;
+}
