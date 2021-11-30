@@ -1,0 +1,16 @@
+#include<stdio.h>
+int main() {
+	
+	int numero;
+	printf("Ingresa tu número: ");
+	scanf("%d", &numero);
+	
+	if(numero % 3 == 0){
+	    printf("Tu número sí es multiplo de 3");
+	}
+	else{
+	    printf("Tu número no es multiplo de 3");
+	}
+
+	return 0;
+}
